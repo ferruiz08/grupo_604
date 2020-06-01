@@ -4,6 +4,7 @@ La aplicación inicia con el menú principal desde donde se puede acceder a las 
 3) Sensores : para ver el estado de los sensores elegidos (acelerómetro, sensor de proximidad y podómetro).
 4) Eventos : para ver el historial de eventos y poder borrarlos.
 
+Cuando inicia la aplicación se ejecuta un service que es el encargado de chequear los eventos y publicarlos al webserver.
 Los eventos que registra son:
 1) Inicio de sesión.
 2) Posición del celular (vertical u horizontal).
